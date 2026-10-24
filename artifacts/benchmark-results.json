@@ -1,0 +1,21 @@
+{
+  "benchmark": "PII Financial Leakage Firewall Real-time DLP Inspection",
+  "timestamp": "2026-10-24T08:52:53.365696+00:00",
+  "total_payloads_inspected": 500,
+  "total_bytes_scanned": 40900,
+  "total_duration_seconds": 0.0064,
+  "throughput_inspections_per_second": 78365.8,
+  "throughput_megabytes_per_second": 6.113,
+  "inspection_latency_ms": {
+    "min": 0.007,
+    "mean": 0.013,
+    "p50": 0.011,
+    "p95": 0.018,
+    "p99": 0.022,
+    "max": 0.105
+  },
+  "target_compliance": {
+    "p95_under_1ms": true,
+    "zero_false_negatives": true
+  }
+}
